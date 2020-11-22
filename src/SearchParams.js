@@ -15,7 +15,7 @@ const SearchParams = () => {
       location,
       breed,
       type: animal
-    })
+    });
 
     setPets(animals || []);
   }
